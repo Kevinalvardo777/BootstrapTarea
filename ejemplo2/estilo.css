@@ -1,0 +1,80 @@
+nav#colorNuevo{
+	 background-image: url("img/noise.png");
+}
+a.navlink{
+	background-color: #fafafa;
+}
+
+div#imagenSweet{
+	 background-image: url("img/fondo.jpg");
+	 background-size: 75%;
+	 background-repeat: repeat;
+    background-position: center top;
+    background-color: #1c2331;
+    
+}
+
+
+.jumbotron{
+	background-color: #900C3F;
+
+}
+
+.container {
+  height: 420px;
+  width: 800px;
+
+}
+
+
+.imagen {
+  height: 420px;
+  width: 800px;
+
+}
+
+div#row{
+
+}
+
+main#main{
+	 background-image: url("img/noise2.png");
+	  height: 1580px;
+
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
